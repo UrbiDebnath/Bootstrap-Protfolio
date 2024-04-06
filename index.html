@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+     <!-- font awesome 5 link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- google font -->
+     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+ 
+     <!-- bootstrap css -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-md">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span> <i class="fas fa-bars navbar-icon"></i> </span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img  src="logo.jpeg" alt="logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-center text-md-left" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#feedback">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#contact">Contact</a>
+                    </li>               
+                    </ul>
+                </div>
+            
+            </nav>
+  
+            <section id="banner">
+                <div class="banner-container d-flex justify-content-center align-items-center">
+                    <div class="banner-contents text-center">
+                        <h1 class="font-weight-bolder text-white mb-5">Welcome to My Page !!!</h1><br>
+                        <button class="btn btn-lg btn-primary mr-3" onclick="location.href='#tutorial'" > <i class="fas fa-play mr-2"></i>My Channel</button>
+                        <button class="btn btn-lg btn-primary mr-3" onclick="window.open('https://www.youtube.com/channel/UCtu4SQscOOYCEIeNpXLExjQ')" class="request-callback"><i class="fab fa-youtube mr-2"></i>  Subscribe</button>
+  
+                    </div>
+                </div>
+            </section>
+        </header>
+
+          <!-- features starts  -->
+        <section id="features" class="text-center">
+            <div class="row">
+                <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-col ">
+                        <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                        <h5 class="font-weight-bold">Free to use</h5>
+                        <p class="small">You can access all vedios for free. This channel is not for business.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-col ">
+                        <i class="material-icons icon-style rounded-circle" style="font-size:48px;">brightness_high</i>
+                        <h5 class="font-weight-bold">Easy to know</h5>
+                        <p class="small">You can see different programms of my song from this Youtube channel.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-col ">
+                        <i class="material-icons icon-style rounded-circle" style="font-size:48px">textsms</i>
+                        <h5 class="font-weight-bold">Fast Response</h5>
+                        <p class="small">If you have any problem to understand about any matter, please feedback us by message.</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- features ends  -->
+
+        <!--about me starts here-->
+        <section id="about-me">
+            <div class="section-title">
+                <h3 class="text-center">About Me</h3>
+                <hr class="hr-style" style="border-color:black">
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="basic-desc text-center text-lg-left">
+                        <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+                        <h5 class="font-weight-bolder">Personal Info</h5>
+                        <p>Name: Urbi Debnath</p> 
+                        <p>Profession : Student of Compter Science and Engineering </p>
+                        <p>Institution: Jashore University of Science and Technology</p>
+                        <p>ID: 190147</p>
+                        <p>Current address : Churamonkati,Sadar,Jashore</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7"></div>
+                <div class="col-lg-5">
+                    <div class="education-desc text-center text-lg-left">
+                      <i class="icon-style rounded-circle fas fa-graduation-cap fa-2x"></i>    
+                      <h5 class="font-weight-bolder">Education</h5>
+                      <p><span>SSC in Science: </span> I have completed my SSS from Siraj Mia Memorial Model School, Dhaka with GPA: 5.00</p> <br>
+                      <p><span>HSC in Science: </span> I have completed my HSC from Cantonment College, Jashore with GPA: 4.75.</p> <br>
+                      <p><span>Silver Button: </span>  I am a current student of Computer Science and Engineering, Jashore University of Science and Technology.</p>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="skill-desc text-center text-lg-left">
+                        <i class="icon-style rounded-circle fas fa-briefcase fa-2x"></i>
+                        <h5 class="font-weight-bolder" >Skills</h5>
+                        <table>
+                            <tr>
+                                <td>HTML</td>
+                                <td>
+                                    <span class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>
+                                <span class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Github</td>
+                                <td>
+                                <span class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>C</td>
+                                <td>
+                                <span class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--about me ends here-->
+        
+        <!--feedback starts here-->
+        <section id="feedback">
+            <div class="section-title">
+                <h3 class="text-center text-light">Feedback</h3>
+                <hr class="hr-style">
+            </div>
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p>The website is very interesting as your first bootstrap project. I wish you will do in the future of your web development journey.</p>
+                            <img class="rounded-circle feedback-img" src="uday.jpg" alt="feedback img">
+                            <h6>Uday Sanker Debnath</h6>
+                        </div>
+                        <div class="carousel-item">
+                            <p>I visit your youtube channel. I like the folk song very much. In your channel there is only one folk song. I hope you will upload more folk songs in future.</p>
+                            <img class="rounded-circle feedback-img" src="basanti.jpg" alt="feedback img">
+                            <h6>Basanti Debnath</h6>
+                        </div>
+                        <div class="carousel-item">
+                            <p>I subscribe your Youtube channel. I hope I will get a notification when you upload any vedio. May God bless you. </p>
+                            <img class="rounded-circle feedback-img" style="height: 130px;" src="rimi.jpg" alt="feedback img">
+                            <h6>Kakon Debnath Rimi</h6>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                </div>
+        </section>
+        <section id="contact" class="text-white">
+            <div class="section-title">
+                <h3 class="text-center">Contact Me</h3>
+                <hr class="hr-style">
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form action="mailto:urbicse190147@gmail.com" method="post" enctype="text/plain" class="was-validated">
+                        <div class="form-group mb-1">
+                            <label for="fullname">Fullname</label>
+                            <input type="text" class="form-control" name="fullname" required>
+                            <div class="valid-feedback" style="color: green;">Valid</div>
+                            <div class="invalid-feedback" style="color: brown;">Enter fullname before submitting the form</div>
+                        </div>
+                        <div class="form-group mb-1">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="message">Message</label>
+                            <textarea style="resize: none;" name="" id="" class="form-control" cols="30" rows="4"></textarea>
+                        </div>
+                        <div class="form-group text-center mb-1">
+                            <input type="submit" class="btn btn-primary mr-3" value="Submit">
+                            <input type="reset" class="btn btn-primary" value="Reset">
+                        </div>
+                    </form>
+                </div>
+          </div>
+       </section>
+    <footer>
+        <div class="row text-white">
+            <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+                <p class="small mb-0 mt-1" style="font-size: large;">Copyright &copy; Urbi Debnath</p>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <a href="https://www.facebook.com/urbi.urbi.779/"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.youtube.com/channel/UCtu4SQscOOYCEIeNpXLExjQ"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/urbi-debnath-3b67a51ab/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/UrbiDebnath"><i class="fa fa-2x">&#xf09b;</i></a>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+        <!--feedback ends here-->
+
+<!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+</script>
+</body>
+</html>
